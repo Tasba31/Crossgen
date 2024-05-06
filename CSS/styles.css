@@ -5,7 +5,12 @@ fieldset
 { border: solid white 5px; 
   padding: 2rem 0;
   border-bottom: 3px solid #3b3b4f
-  margin: 50px; }
+  margin: 50px;
+  background-image: url('./resources/images/crossgen_comics.png');
+  background-size: cover; /* Cover the entire fieldset area */
+  background-repeat: no-repeat; /* Prevent the image from repeating */ }
+
+
 
 .crossgen-titles-list 
 { padding: 75px;
